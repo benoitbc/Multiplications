@@ -1,0 +1,106 @@
+html {
+   font-family: 'Roboto', sans-serif;
+}
+
+.flex-center {
+   display: flex; 
+   justify-content: center;
+}
+
+.main {
+   gap: 15px;
+}
+
+.top {
+   margin: 20px;
+}
+
+.question-container { display: flex; flex-direction: column; gap: 15px; }
+.result-container { display: flex; flex-direction: column; gap: 15px; }
+
+#divScore{
+   text-align: center;
+   font-size: 40pt;
+}
+
+#resultats {
+   font-size: 20pt;
+   min-width: 300px;
+   text-align: center;
+   min-height: 300px;
+
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+#resultats > div {
+   padding: 5px 10px;
+   background-color: #8BC34A;
+   display: flex;
+   align-items:center ;
+   justify-content: center;
+   border-radius: 10px;
+}
+
+.spacer { flex-grow: 1;}
+
+#resultats > div.error { 
+   background-color: #FF5722;
+ }
+
+input[type='checkbox'] {
+   width:30px;
+   height:30px;
+   background:white;
+   border-radius:3px;
+   border:2px solid #555;
+}
+input[type='checkbox']:checked {
+   background: #abd;
+}
+
+input[type='number'] {
+   padding: 20px;
+   font-size: 40pt;
+   text-align: center;
+   border-radius: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#tblChiffres td { 
+   text-align: center; 
+   font-size: 20px;}
+
+.box {
+   border-radius: 3px;
+   border: 2px solid #555;
+   padding: 20px;
+}
+
+#divQuestion {
+   font-size: 40pt;
+   text-align: center;
+   background-color: #01579B;
+   color: white;
+}
+
+#btnStart {
+   padding: 15px;
+   font-size: 20px;
+   background-color: #5C6BC0;
+   color: white;
+   border: none;
+   border-radius: 16px;
+   cursor: pointer;
+}
+#btnStart:hover{
+   background-color: #7986CB;
+}
+
+.arrow-icon { font-size: 20pt !important; }
